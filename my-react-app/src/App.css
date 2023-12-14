@@ -1,0 +1,210 @@
+body {
+  background-color: #87CEFA; /* Night blue background */
+  color: #f9f5e1; /* Dairy cream text color */
+}
+
+body.dark-mode {
+  background-color: #6495ED; /* Night blue background */
+  color: #f9f5e1; /* Dairy cream text color */
+}
+
+body.light-mode {
+  background-color: #6495ED; /* Yellow background */
+  color: #333; /* Dark text color */
+}
+
+.todo-app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-container {
+  background-color: gray(255, 255, 255, 0.7); /* Transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  color: #3182ce;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2a669a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: gray;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.task h2 {
+  margin: 0;
+}
+
+.task p {
+  margin: 0;
+  color: #666;
+}
+.task {
+  position: relative;
+}
+
+.priority-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.days-remaining-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 5px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 350px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+/* Add this to your App.css file */
+.task-input-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* You can adjust the width, padding, and other styles as needed */
+.add-task {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Add this to your App.css file */
+.app-content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add any additional styling you need for the result box */
+.toggle-mode {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-mode button {
+  background-color: #e58b8b;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Adjust the border-radius as needed */
+  margin: 0 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.toggle-mode button i {
+  font-size: 18px;
+}
+.toggle-mode {
+  display: flex;
+  align-items: center;
+}
+
+.oblong-container {
+  background-color: #100f0f; /* Set the background color as needed */
+  border: 1px solid #ccc; /* Set the border properties as needed */
+  border-radius: 20px; /* Adjust the border-radius as needed */
+  padding: 5px; /* Adjust the padding as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust the spacing as needed */
+}
+
+.toggle-mode button {
+  cursor: pointer;
+}
+
+.toggle-mode button i {
+  font-size: 18px;
+}
+#result-text {
+  color: black; /* Change to your desired text color */
+}
+.task label {
+  color: black !important;
+}
+.completion-archive-box {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f8f8;
+}
+
+.completed-tasks-box {
+  background-color: #f8f8f8;
+  color: black !important;
+}
+
+
